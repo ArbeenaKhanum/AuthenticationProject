@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AuthenticationApp</string>
+    <string name="name_text">Arbeena Khanum</string>
+    <string name="sign_up_text">Sign Up</string>
+</resources>
