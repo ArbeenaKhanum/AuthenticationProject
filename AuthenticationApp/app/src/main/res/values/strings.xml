@@ -2,4 +2,7 @@
     <string name="app_name">AuthenticationApp</string>
     <string name="name_text">Arbeena Khanum</string>
     <string name="sign_up_text">Sign Up</string>
+    <string name="user_details_text">User Details</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Sign Up</string>
 </resources>

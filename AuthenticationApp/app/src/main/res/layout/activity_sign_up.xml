@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8E44F8"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/signUpGuidelineBottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/signUpGuideline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/sign_up_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/signUpFieldsBottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/signUpFieldsTop">
+
+        <EditText
+            android:id="@+id/etvFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_person_name"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter First Name" />
+
+        <EditText
+            android:id="@+id/etvLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_person_name"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter Last Name" />
+
+        <EditText
+            android:id="@+id/etvMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_phone_icon"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter Mobile Number" />
+
+        <EditText
+            android:id="@+id/etvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_email_icon"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter Email Address" />
+
+
+        <EditText
+            android:id="@+id/etvPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_password_icon"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter Password" />
+
+        <EditText
+            android:id="@+id/etvGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:drawableStart="@drawable/ic_gender"
+            android:drawablePadding="@dimen/dp_20"
+            android:hint="Enter Gender" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_40"
+        android:background="@drawable/signup_button"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/sign_up_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/signUpButtonBottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/signUpButtonTop" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpButtonTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="620dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpButtonBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="680dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpFieldsTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="80dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpFieldsBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="610dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUpGuidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="80dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
