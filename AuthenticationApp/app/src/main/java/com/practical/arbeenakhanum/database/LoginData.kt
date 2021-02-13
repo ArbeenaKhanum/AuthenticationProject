@@ -16,7 +16,7 @@ data class LoginData(
     var lastName: String,
 
     @ColumnInfo(name = "mobileNumber")
-    var mobileNumber: Int,
+    var mobileNumber: String,
 
     @ColumnInfo(name = "email")
     var email: String,
