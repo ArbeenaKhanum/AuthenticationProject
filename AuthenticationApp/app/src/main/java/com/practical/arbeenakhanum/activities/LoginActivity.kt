@@ -13,7 +13,6 @@ import com.practical.arbeenakhanum.viewmodelfactory.UserViewModelFactory
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
-
 /**
  * This class handles login
  */

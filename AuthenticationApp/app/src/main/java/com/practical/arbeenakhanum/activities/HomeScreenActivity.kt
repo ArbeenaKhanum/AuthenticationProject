@@ -8,6 +8,10 @@ import com.practical.arbeenakhanum.viewmodel.UserViewModel
 import com.practical.arbeenakhanum.viewmodelfactory.UserViewModelFactory
 import kotlinx.android.synthetic.main.activity_home_screen.*
 
+/**
+ * This class displays the data stored in room database on the screen
+ */
+
 class HomeScreenActivity : AppCompatActivity() {
     private lateinit var userViewModel: UserViewModel
 

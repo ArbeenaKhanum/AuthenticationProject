@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.os.Handler
 import com.practical.arbeenakhanum.R
 
+/**
+ * This class handles Splash screen
+ */
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
