@@ -4,12 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
     tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/dp_20"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
         app:layout_constraintBottom_toBottomOf="@id/loginBottom"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,7 +27,7 @@
             android:layout_gravity="center"
             android:layout_margin="@dimen/dp_20"
             android:padding="@dimen/dp_10"
-            android:text="Login"
+            android:text="@string/login_text"
             android:textColor="#280870"
             android:textSize="@dimen/sp_25"
             android:textStyle="bold" />

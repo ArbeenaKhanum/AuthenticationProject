@@ -4,5 +4,6 @@
     <string name="sign_up_text">Sign Up</string>
     <string name="user_details_text">User Details</string>
     <string name="login_text">Login</string>
-    <string name="sign_up_text">Sign Up</string>
+    <string name="invalid_email">"Email address Invalid"</string>
+    <string name="invalid_password">"Password must contain 6 characters"</string>
 </resources>
