@@ -10,19 +10,19 @@ data class LoginData(
     var loginId: Int = 0,
 
     @ColumnInfo(name = "firstName")
-    val firstName: String,
+    var firstName: String,
 
     @ColumnInfo(name = "lastName")
-    val lastName: String,
+    var lastName: String,
 
     @ColumnInfo(name = "mobileNumber")
-    val mobileNumber: Int,
+    var mobileNumber: Int,
 
     @ColumnInfo(name = "email")
-    val email: String,
+    var email: String,
 
     @ColumnInfo(name = "gender")
-    val gender: String,
+    var gender: String,
 
     @ColumnInfo(name = "password")
     val password: String

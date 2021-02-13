@@ -6,4 +6,6 @@
     <string name="login_text">Login</string>
     <string name="invalid_email">"Email address Invalid"</string>
     <string name="invalid_password">"Password must contain 6 characters"</string>
+    <string name="invalid_mobile_number">"Mobile number must contain 10 digits"</string>
+
 </resources>
